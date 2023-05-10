@@ -1,0 +1,302 @@
+/*--------Cursor effect--------------*/
+
+html{
+    cursor: none;
+}
+
+body{
+    min-height: min-content;
+}
+
+/*---------blur effect-------------------*/
+.blurText{
+    animation: blur 5s infinite;
+    -webkit-animation: blur 5s infinite;
+  }
+  
+  @keyframes blur {
+    0%,
+    90% {
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -o-filter: blur(0px);
+      -ms-filter: blur(0px);
+    }
+    50% {
+      -webkit-filter: blur(7px);
+      -moz-filter: blur(7px);
+      -o-filter: blur(7px);
+      -ms-filter: blur(7px);
+    }
+  }
+  
+/*------------font size--------------*/
+.biggerTitle{
+  font-family: 'Almarai', sans-serif;
+  font-size: 3.7rem;
+}
+
+.titleText{
+  font-size: 2rem;
+}
+
+.regtext {
+  font-size: 1.45rem;
+}
+
+.mediumText{
+  font-size: 1.3rem;
+}
+
+.smallText{
+  font-size: 1.2rem;
+}
+ 
+.tinyText{
+  font-size: 0.9rem;
+}
+
+
+@media screen and (max-width: 1000px){
+    .biggerTitle{
+        font-family: 'Almarai', sans-serif;
+        font-size: 3.5rem;
+    }
+    
+    .titleText{
+        font-size: 2rem;
+    }
+    
+    .regtext {
+        font-size: 1.38rem;
+    }
+    
+    .mediumText{
+        font-size: 1.2rem;
+    }
+      
+    .smallText{
+        font-size: 1rem;
+    }
+       
+    .tinyText{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .biggerTitle{
+        font-family: 'Almarai', sans-serif;
+        font-size: 2.8rem;;
+    }
+    
+    .titleText{
+        font-size: 1.6rem;
+    }
+    
+    .regtext {
+        font-size: 1.2rem;
+    }
+    
+    .mediumText{
+        font-size: 1.1rem;
+    }
+      
+    .smallText{
+        font-size: 1rem;
+    }
+       
+    .tinyText{
+        font-size: 0.8rem;
+    }
+}
+
+  
+
+/*-------btn common settings------*/
+.btn{
+    border-radius: 40px;
+}
+  
+.btnBlue{
+    background-color: #1689CA;
+}
+
+.btnOrange{
+    background-color: #D6AC29;
+}
+
+.btnRed{
+    background-color: #D0021B;
+}
+
+.btnWhite{
+    background-color: white;
+}
+
+/*--------hover effect for buttons------*/
+
+.btnBlue:hover, .btnWhite:hover, .btn-dark:hover, .btnRed:hover{
+    background-color: #D6AC29;
+    color: white;
+    -moz-box-shadow:  1px 1px 1px 1px #D6AC29;
+    -webkit-box-shadow: 1px 1px 1px 1px #D6AC29;
+    box-shadow: 1px 1px 1px 1px #D6AC29;
+    border: none;
+}
+
+.btnOrange:hover{
+    background-color: #1689CA;
+    -moz-box-shadow:  1px 1px 1px 1px #1689CA;
+    -webkit-box-shadow: 1px 1px 1px 1px #1689CA;
+    box-shadow: 1px 1px 1px 1px #1689CA;
+}
+
+
+/*-----Colours-------*/
+
+.greyColour{
+    color: #4A4A4A;
+}
+  
+.orangeColour{
+    color: #D6AC29;
+}
+  
+.blueColour{
+    color: #1689CA;
+}
+
+.borderColour{
+    border-color: #3E88C5 !important;
+}
+
+/*------Fixed Left side------*/
+
+.fixed{
+
+    position: fixed;
+
+    width: 75vh;
+
+    z-index: 0;
+
+}
+
+@media screen and (max-width: 1200px){
+
+    .fixed{
+
+        width: 60vh;
+
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+    .fixed{
+
+        position: relative;
+
+        width: 60vh;
+
+    }
+
+}
+
+
+/*---------social media icon settings-----------*/
+.circle-icon{
+    background: white;
+    border-radius: 50%;
+    
+}
+
+
+/*-----footer shadow----*/
+footer{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    z-index: 2;
+}
+
+header{
+    z-index: 2;
+}
+
+.layer-back{
+    z-index: -1 !important;;
+}
+
+/*-----nav hover effect------*/
+
+
+.nav-link:hover{
+    color:#D6AC29 !important;
+    font-weight: bold;
+    transition: width .3s;
+}
+
+/*
+li a{
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .nlink::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:#D6AC29;
+    transition: width .3s;
+  }
+  
+  .nlink:hover::after{
+    width: 100%;
+    transition: width .3s;
+    color: #D6AC29;
+  }
+*/
+
+
+
+.fonticon{
+    position: fixed;
+    margin-top: -34px;
+    margin-left: 40px;
+}
+
+
+.fonticongeneral{
+    margin-right: 100px;
+}
+
+/* cursor animation and style */ 
+.cursor {
+    background-color: #0065A1;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: 8px solid white;
+    box-shadow:
+    0 0 20px 10px #fff,  
+    0 0 40px 20px grey, 
+    0 0 60px 30px #1689CA;    border-radius: 50%;
+    opacity: .5;
+    top: -8px;
+    left: -8px;
+    animation: cursorAnim 1.5s infinite alternate;
+    pointer-events: none;
+
+}
+
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.4);
+    }
+}

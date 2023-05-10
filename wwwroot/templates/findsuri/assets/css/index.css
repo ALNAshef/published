@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+
+
+/*---------------General Text--------------------------------------------------------*/
+.Title{
+  font-family: 'Almarai', sans-serif;
+  font-size: 3.52em;;
+
+}
+.Text{
+  font-family: 'Almarai', sans-serif;
+  text-align: left;
+  color:  #1689CA;;
+ 
+}
+.page-section-text{
+  font-weight: 400;
+  padding-top: 2%;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 300;
+  font-size: large;
+  align-content: center;
+}
+
+
+/*----------vert move effect--------------*/
+.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+/*-----------------------------*/
+
+
+.icon {
+  display: inline-block;
+  font-size: inherit;
+  overflow: visible;
+  vertical-align: -0.125;
+  text-rendering: auto;
+  fill: gray !important;
+  width: 50px;
+  height: 50px;
+}
+
+.btn{
+  border-radius: 40px;
+  font-family: 'Almarai', sans-serif;
+  font-weight: 400;
+}
+
+/*--------home logo video------*/
+.homeVideo {
+  position: relative;
+  background-color: none;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.homeVideo video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.homeVideo .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+.homeVideo .videoText{
+  position: relative;
+  z-index: 1;
+  top:25%;
+}
+
+
+
+/*----Body---*/
+
+body {
+  
+  background-color: #1689CA; 
+}
+
+
+/*Full Header*/
+header {
+  font-family: 'Tajawal', sans-serif;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:2;
+}
+/* Header class */
+.site-header .animated {
+  animation-delay: 2s;
+  animation-duration: 1s;
+}
+
+.site-header  {
+
+  text-align:center;
+  font-family: 'Tajawal', sans-serif;
+  font-weight:500;
+  font-size: x-large;
+
+  position: fixed;
+  
+}
+
+
+.site-header .nav-link {
+  position:relative;
+  padding-bottom: 0;
+  margin-bottom: 2px;
+  color: white;
+}
+.dropdown-item{
+  text-align:center;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 300;
+  font-size: larger;
+  color: white;
+}
+.dropdown-menu {
+
+  background-color: #0065A1;
+}
+
+
+.site-header .nav-link:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  max-width: 100px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-out;
+}
+
+.site-header .nav-link:hover:before {
+  visibility: visible;
+  left: 0;
+  transform: scaleX(1);
+  color: #D6AC29;
+}
+
+.indexTop{
+  z-index: 1;
+}
+
+.indexBack{
+  z-index: -1;
+}
+
+
+
+.site-header .layout-home {
+  min-height: 50vh;
+}
+
+.readmore{
+  font-family: 'Tajawal', sans-serif;
+  font-size: medium;
+
+}
+.social .container {
+  align-items: flex-start;
+  margin-left: -15%;
+}
+
+.social .container ul {
+  float: left;
+  
+}
+
+.social .container ul li {
+  float: left;
+  padding-left: 15px;
+  list-style-type: none;
+ 
+}
+
+
+/*section class text after logo */
+.layout-hero {
+  margin-top: -10px;
+  font-family: 'Almarai', sans-serif;
+ 
+}
+
+
+.site-header .layout-hero {
+  min-height: 50vh;
+}
+
+/*------Home Social media section---------------------*/
+.layout-social .layout-icon {
+  font-size: 2em;
+}
+
+/*------About Page---------------------*/
+.layout-text {
+  font-family: 'Almarai', sans-serif;
+  display: inline-block;
+  text-align: left;
+ 
+}
+
+/*------About Page section class---------------------*/
+.layout-nested  {
+  background-color: #9EC6E9;
+
+}
+
+
+/*------Body Header---------------------*/
+.site-nav{
+    background-color: #1689CA; 
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width:100%;
+    font-family: 'Almarai', sans-serif;
+
+}
+
+@media screen and (max-width: 908px) {
+  .site-header .navbar-collapse {
+    background-color: #0065A1;
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .layout-social .layout-icon{
+    font-size: 1.5em;
+  }
+
+  .h-60{
+    height: 90%;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+  .site-header .navbar-collapse {
+    background-color: #0065A1;
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .layout-social .layout-icon{
+    font-size: 1.5em;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+  }
+
+  .h-60{
+    width: 32px;
+  }
+
+
+}
+
+@media screen and (max-width: 700px) {
+  .h-60{
+    width: 30px;
+  }
+}
+
+
+/*------Program section class---------------------*/
+.layout-nestedprogram{
+    background-color:whitesmoke ;
+}
+
+/*------Contact Us-----*/
+.form-control1{
+  background-color: #9EC6E9;
+}
+.formcont {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.form-group input{
+  border: none;
+}
+
+.container{
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: auto;
+  border-radius: 6px;
+ 
+}
+
+.site-footer{
+  background-color: #0065A1;
+  font-family: 'Tajawal', sans-serif;
+}
+.footer-text{
+  color: #D6AC29;
+  font-family: 'Almarai', sans-serif;
+}
+.footerp{
+  font-size: medium;
+  text-align: left;
+  margin-left: 25%;
+  display: contents;
+}
+
+@media screen and (min-width: 768px) {
+  #page-floater {
+    margin: 150px 0 150px 0;
+  }
+
+ 
+}
+
+.from-missing input,.from-missing input:focus  {
+    background-color: #9EC6E9;
+}

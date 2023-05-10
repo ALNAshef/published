@@ -1,0 +1,127 @@
+﻿/* Sortable items */
+
+.sortable-list {
+    list-style: none;
+    margin: 0;
+    min-height: 60px;
+    padding: 10px;
+}
+
+.sortable-list-left {
+    list-style: none;
+    margin: 0;
+    min-height: 60px;
+    padding: 10px;
+}
+
+.sortable-item {
+    min-height: 32px;
+    background-color: #FFF;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: move;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 6px 0;
+    text-align: center;
+    /*direction: rtl;*/
+}
+
+.art-sheet2 {
+    margin: 0px auto 0;
+    position: relative;
+    cursor: auto;
+    /*width: 790px;*/
+    z-index: auto !important;
+}
+
+.art-layout-wrapper2 {
+    position: relative;
+    margin: 0 auto 0 auto;
+    z-index: auto !important;
+}
+
+.art-content-layout2 {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.art-content-layout-row2 {
+    display: table-row;
+}
+
+.art-layout-cell2 {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.art-content-layout2 .art-sidebar12 {
+    margin: 0 auto;
+    min-width: 200px;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    color: #077a09;
+}
+
+.art-content-layout2 .art-content2 {
+    margin: 0 auto;
+    min-width: 400px;
+    border: 1px solid #ccc;
+    color: #0026ff;
+}
+
+.art-content-layout2 .art-sidebar22 {
+    margin: 0 auto;
+    min-width: 200px;
+    max-width: 300px;
+    color: #f00;
+    border: 1px solid #ccc;
+}
+
+.addons-header {
+    /*margin:10px 10px 0px 10px;*/
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: var(--primary-bg-color);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 6px 0;
+    line-height: 18px;
+}
+
+.addonsfile-header {
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: var(--bs-info);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 6px 0;
+    line-height: 18px;
+}
+
+.addons-div-right {
+    /*width: 250px;*/
+    /*float: right;*/
+    /*margin-right: 10px; */
+    position: inherit;
+    border: 1px solid #ccc;
+    max-height: 600px;
+    text-align: left;
+    /*direction: ltr;*/
+}
+
+.addons-div-left {
+    /*float: left;*/
+    margin-right: 0px;
+}
+
+.delete-sortable-item {
+    cursor: pointer;
+}
+

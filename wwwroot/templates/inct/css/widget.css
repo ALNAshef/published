@@ -1,0 +1,772 @@
+/*
+	  ==============================================================
+		   Widgets
+	  ==============================================================
+*/
+html[dir="rtl"] .edu2_short_form {
+	float: right;
+	width: 100%;
+	padding:30px 0;  
+	border-bottom: 1px solid #7a7a7a;   
+}
+html[dir="ltr"] .edu2_short_form {
+	float: left;
+	width: 100%;
+	padding:30px 0;  
+	border-bottom: 1px solid #7a7a7a; 
+}
+html[dir="rtl"] .edu2_ft_topbar_wrap {
+	float: right;
+	width: 100%;
+	padding:30px 0;  
+	border-bottom: 1px solid #7a7a7a;
+}
+
+html[dir="ltr"] .edu2_ft_topbar_wrap {
+	float: left;
+	width: 100%;
+	padding:30px 0;  
+	border-bottom: 1px solid #7a7a7a;
+}
+html[dir="rtl"] .edu2_search {
+	float: right;
+	width: 100%;
+	padding:30px 0;  
+	border-bottom: 1px solid #7a7a7a;
+}
+html[dir="ltr"] .edu2_search {
+	float: left;
+	width: 100%;
+	padding:30px 0;  
+	border-bottom: 1px solid #7a7a7a;
+}
+html[dir="rtl"] .edu2_ft_topbar_des h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding: 13px 0px;
+	text-align: right;  
+}
+html[dir="ltr"] .edu2_ft_topbar_des h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding: 13px 0px;
+	text-align: left;
+}
+html[dir="rtl"] .a-top {
+	float: right;
+	width: 100%;
+	text-align: center;    
+	position: relative; 
+}
+html[dir="ltr"] .a-top {
+	float: left;
+	width: 100%;
+	text-align: center;    
+	position: relative;
+}
+html[dir="rtl"] .edu2_ft_topbar_des input[type=email] {
+	float: right;
+	width: 100%;
+	border:1px solid #fff;
+	padding:7px 15px 7px 125px;
+	color: #fff;  
+	font-size: 16px;
+	text-transform: capitalize;
+	background-color: transparent;
+	height: 50px;
+	font-size: 14px !important;
+	box-shadow: none;
+}
+html[dir="ltr"] .edu2_ft_topbar_des input[type=email] {
+	float: left;
+	width: 100%;
+	border:1px solid #fff;
+	padding:7px 125px 7px 15px;
+	color: #fff;  
+	font-size: 16px;
+	text-transform: capitalize;
+	background-color: transparent;
+	height: 50px;
+	font-size: 14px !important;
+	box-shadow: none;   
+}
+html[dir="rtl"] .edu2_short_form_des h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding: 13px 0px;
+	text-align: right;
+}
+html[dir="ltr"] .edu2_short_form_des h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding: 13px 0px;
+	text-align: left;
+}
+html[dir="rtl"] .edu2_short_form_des input[type=text] {
+	float: right;
+	width: 100%;
+	border:1px solid #fff;
+	padding:7px 15px 7px 125px;
+	color: #fff;  
+	font-size: 16px;
+	text-transform: capitalize;
+	background-color: transparent;
+	height: 50px;
+	font-size: 14px !important;
+	box-shadow: none;
+}
+html[dir="ltr"] .edu2_short_form_des input[type=text] {
+	float: left;
+	width: 100%;
+	border:1px solid #fff;
+	padding:7px 125px 7px 15px;
+	color: #fff;  
+	font-size: 16px;
+	text-transform: capitalize;
+	background-color: transparent;
+	height: 50px;
+	font-size: 14px !important;
+	box-shadow: none;  
+}
+html[dir="rtl"] .edu2_short_form_des h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding: 13px 0px;
+	text-align: right;   
+}
+html[dir="ltr"] .edu2_short_form_des h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding: 13px 0px;
+	text-align: left;
+}
+html[dir="rtl"] .edu2_short_form_des {
+	float: right;
+	width: 100%;
+	text-align: center;    
+	position: relative;      
+}
+
+html[dir="ltr"] .edu2_short_form_des {
+	float: left;
+	width: 100%;
+	text-align: center;    
+	position: relative;   
+}
+html[dir="rtl"] .edu2_short_form_des input[type=text] {
+	float: right;
+	width: 100%;
+	border:1px solid #fff;
+	padding:7px 15px 7px 125px;
+	color: #fff;  
+	font-size: 16px;
+	text-transform: capitalize;
+	background-color: transparent;
+	height: 50px;
+	font-size: 14px !important;
+	box-shadow: none; 
+}
+html[dir="ltr"] .edu2_short_form_des input[type=text] {
+	float: left;
+	width: 100%;
+	border:1px solid #fff;
+	padding:7px 125px 7px 15px;
+	color: #fff;  
+	font-size: 16px;
+	text-transform: capitalize;
+	background-color: transparent;
+	height: 50px;
+	font-size: 14px !important;
+	box-shadow: none;
+}
+html[dir="rtl"] .edu2_search_box {
+	float: right;
+	width: 100%;
+	text-align: center;
+    position: relative;
+}
+html[dir="ltr"] .edu2_search_box {
+	float: left;
+	width: 100%;
+	text-align: center;
+    position: relative;
+}
+html[dir="ltr"] .edu2_search_box h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding: 13px 0px;
+	text-align: left;
+}
+html[dir="rtl"] .edu2_search_box h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding: 13px 0px;
+	text-align: right;
+}
+.edu2_search_box input[type=text]{
+	float: right;
+	width: 100%;
+	border:1px solid #fff;
+	padding:7px 15px 7px 125px;
+	color: #fff;  
+	font-size: 16px;
+	text-transform: capitalize;
+	background-color: transparent;
+	height: 50px;
+	font-size: 14px !important;
+	box-shadow: none;
+}
+.edu2_phone_box input[type=text]{
+	float: right;
+	width: 100%;
+	border:1px solid #fff;
+	padding:7px 15px 7px 125px;
+	color: #fff;  
+	font-size: 16px;
+	text-transform: capitalize;
+	background-color: transparent;
+	height: 35px;
+	font-size: 14px !important;
+	box-shadow: none;
+}
+.edu2_phone_box{
+	float: right;
+    position: relative;
+	margin-top: 3px;
+	width: 100%;
+}
+.edu2_phone_box h5{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding: 13px 0px;
+	text-align: right;
+}
+.edu2_phone_box input[type=text]{
+ 
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+
+}
+.short_text{
+	float: right;
+	width: 100%;
+	border:1px solid #fff;
+	padding:7px 15px 7px 170px;
+	color: #fff;  
+	font-size: 16px;
+	//text-transform: capitalize;
+	background-color: transparent;
+	height: 50px;
+	font-size: 14px !important;
+	box-shadow: none;
+    text-align: left;
+}
+.short_text:focus{
+	border-color: #fff !important;
+	box-shadow:  10px 5px 0px 0px rgba(0,0,0,0.3)
+}
+.short_button{
+	position: absolute;
+	padding:0 25px ;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff; 
+	left: 0;
+	top: 0;
+	height: 100%;
+	vertical-align: middle;
+	border-right:1px solid #fff;
+	height: 100%;
+	background-color: transparent;
+}
+.edu2_ft_topbar_des input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.edu2_ft_topbar_des input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.edu2_ft_topbar_des input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.edu2_ft_topbar_des input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.edu2_short_form_des input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.edu2_short_form_des input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.edu2_short_form_des input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.edu2_short_form_des input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.edu2_phone_box input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.edu2_phone_box input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.edu2_phone_box input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.edu2_phone_box input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.edu2_search_box input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.edu2_search_box input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.edu2_search_box input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.edu2_search_box input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+html[dir="rtl"] .edu2_ft_topbar_des input[type="email"]:focus {
+	border-color: #fff !important;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+}
+html[dir="ltr"] .edu2_ft_topbar_des input[type="email"]:focus {
+	border-color: #fff !important;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+}
+html[dir="rtl"] .edu2_ft_topbar_des button {
+	position: absolute;
+	padding:0 15px ;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff; 
+	left: 0;
+	top: 0;
+	height: 100%;
+	vertical-align: middle;
+	border-right:1px solid #fff;
+	height: 100%;
+	background-color: transparent;
+    margin: 0 15px;
+}
+html[dir="ltr"] .edu2_ft_topbar_des button {
+	position: absolute;
+	padding:0 15px ;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff; 
+	right: 0;
+	top: 0;
+	height: 100%;
+	vertical-align: middle;
+	border-left:1px solid #fff;
+	height: 100%;
+	background-color: transparent;
+    margin: 0 15px;
+}
+html[dir="rtl"] .edu2_ft_topbar_des button i {
+	margin-left: 15px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 1px;
+}
+html[dir="ltr"] .edu2_ft_topbar_des button i {
+	margin-right: 15px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 1px;
+}
+.edu2_short_form_des input[type="text"]:focus{
+	border-color: #fff !important;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3)
+}
+html[dir="rtl"] .edu2_short_form_des button {
+	position: absolute;
+	padding:0 15px ;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff; 
+	left: 0;
+	top: 0;
+	height: 100%;
+	vertical-align: middle;
+	border-right:1px solid #fff;
+	height: 100%;
+	background-color: transparent;
+}
+html[dir="ltr"] .edu2_short_form_des button {
+	position: absolute;
+	padding:0 15px ;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff; 
+	right: 0;
+	top: 0;
+	height: 100%;
+	vertical-align: middle;
+	border-right:1px solid #fff;
+	height: 100%;
+	background-color: transparent;
+}
+html[dir="rtl"] .edu2_short_form_des button i {
+	margin-left: 15px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 1px;
+}
+html[dir="ltr"] .edu2_short_form_des button i {
+	margin-right: 15px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 1px;
+}
+.edu2_phone_box input[type="email"]:focus{
+	border-color: #fff !important;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3)
+}
+.edu2_phone_box button{
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color: transparent;
+}
+.edu2_phone_box button i{
+    font-size: 16px;
+    margin-top: 1px;
+}
+.edu2_search_box input[type="text"]:focus{
+	border-color: #fff !important;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3)
+}
+html[dir="ltr"] .edu2_search_box button {
+	position: absolute;
+	padding:0 15px ;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff; 
+	right: 0;
+	top: 0;
+	height: 100%;
+	vertical-align: middle;
+	border-left:1px solid #fff;
+	height: 100%;
+	background-color: transparent;
+}
+html[dir="rtl"] .edu2_search_box button {
+	position: absolute;
+	padding:0 15px ;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff; 
+	left: 0;
+	top: 0;
+	height: 100%;
+	vertical-align: middle;
+	border-right:1px solid #fff;
+	height: 100%;
+	background-color: transparent;
+}
+html[dir="ltr"] .edu2_phone_box button {
+	position: absolute;
+	padding:0 15px ;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff; 
+	right: 0;
+	top: 0;
+	height: 100%;
+	vertical-align: middle;
+	border-left:1px solid #fff;
+	height: 100%;
+	background-color: transparent;
+}
+html[dir="rtl"] .edu2_phone_box button {
+	position: absolute;
+	padding:0 15px ;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff; 
+	left: 0;
+	top: 0;
+	height: 100%;
+	vertical-align: middle;
+	border-right:1px solid #fff;
+	height: 100%;
+	background-color: transparent;
+}
+.edu2_phone_box input[type="text"]:focus{
+	border-color: #fff !important;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3)
+}
+html[dir="rtl"] .edu2_search_box button i {
+	margin-left: 15px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 1px;
+}
+html[dir="ltr"] .edu2_search_box button i {
+	margin-right: 15px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 1px;
+}
+html[dir="rtl"] .edu2_phone_box button i {
+	margin-left: 15px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 1px;
+}
+html[dir="ltr"] .edu2_phone_box button i {
+	margin-right: 15px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 1px;
+}
+/*FOOTER CONTANT START*/
+html[dir="rtl"] .edu2_footer_contant_des {
+	float: right;
+	width: 100%;
+}
+html[dir="ltr"] .edu2_footer_contant_des {
+	float: left;
+	width: 100%;
+}
+html[dir="rtl"] .edu2_footer_heading {
+	float: right;
+	width: 100%;
+	text-align: right;
+}
+html[dir="ltr"] .edu2_footer_heading {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+html[dir="rtl"] .widget {
+	float: right;
+	width: 100%;
+}
+html[dir="ltr"] .widget {
+	float: left;
+	width: 100%;
+}
+footer .widget h5{
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px 0 30px;
+}
+html[dir="rtl"] .widget-links ul {
+	float: right;
+	width: 100%;
+	margin: -4px 0 0 0;
+}
+html[dir="ltr"] .widget-links ul {
+	float: left;
+	width: 100%;
+	margin: -4px 0 0 0;
+}
+html[dir="rtl"] .widget-links ul li {
+	float: right;
+	width: 100%;
+	text-align: right;
+	font-size: 16px;
+	font-weight: normal;
+	color: #f9f9f9;
+	text-transform: capitalize;
+}
+html[dir="ltr"] .widget-links ul li {
+	float: left;
+	width: 100%;
+	text-align: left;
+	font-size: 16px;
+	font-weight: normal;
+	color: #f9f9f9;
+	text-transform: capitalize;
+}
+html[dir="rtl"] .widget-links ul li a:before {
+	content: "\f104";
+	position: absolute;
+	right: 0px;
+	top: 1px;
+	font-family: FontAwesome;
+}
+html[dir="ltr"] .widget-links ul li a:before {
+	content: "\f105";
+	position: absolute;
+	left: 0px;
+	top: 1px;
+	font-family: FontAwesome;
+}
+html[dir="rtl"] .widget-links ul li a:hover:before {
+    right: 10px;
+}
+html[dir="ltr"] .widget-links ul li a:hover:before {
+    left: 10px;
+}
+.instagram li a{
+	display:block;	
+}
+.widget-links ul li:last-child{
+	margin: 0;
+}
+html[dir="rtl"] .widget-links ul li a{
+	display: inline-block;
+	font-weight: normal;
+	color: #f9f9f9;
+	text-transform: capitalize;
+	position: relative;
+	padding: 1px 15px 1px 0px;
+	font-size: 16px;
+}
+html[dir="ltr"] .widget-links ul li a{
+	display: inline-block;
+	font-weight: normal;
+	color: #f9f9f9;
+	text-transform: capitalize;
+	position: relative;
+	padding: 1px 0px 1px 15px;
+	font-size: 16px;
+}
+.widget-links ul li a:hover{
+	padding-right: 20px;
+}
+.wiget-instagram ul{
+	float: right;
+	width: 100%;
+	padding-top:6px; 
+	margin-bottom:-10px;
+}
+.wiget-instagram ul li {
+	float: right;
+    margin: 0 0 10px 10px !important;
+    width: 72px;
+    padding: 0px;
+    background-color: #000;
+}
+.wiget-instagram ul li:hover a{
+	padding: 0px;
+}
+.wiget-instagram ul li img{
+	transition:all 0.3s ease-in-out;
+
+}
+.wiget-instagram ul li:hover img{
+	opacity: 0.5;
+}
+
+.widget-contact{
+
+}
+.widget-contact ul{
+	list-style: none;
+}
+.widget-contact ul li{
+	float: right;
+	width: 100%;
+	margin-top: 10px;
+	color:#f9f9f9;
+}
+.widget-contact ul li a{
+	color:#f9f9f9;
+}
+.widget-contact ul li:first-child{
+	margin: 0px;
+}
+/*copy right wrap*/
+html[dir="rtl"] .edu2_copyright_wrap {
+	float: right;
+	width: 100%;
+	padding:30px 0 20px; 
+	background-color: #000;
+}
+html[dir="ltr"] .edu2_copyright_wrap {
+	float: left;
+	width: 100%;
+	padding:30px 0 20px; 
+	background-color: #000;
+}
+html[dir="rtl"] .edu2_ft_logo_wrap {
+	float: right;
+	width: 100%;
+	text-align: right;
+	width: 50px;
+	padding:1px 0 0 0 ; 
+}
+html[dir="ltr"] .edu2_ft_logo_wrap {
+	float: left;
+	width: 100%;
+	text-align: left;
+	width: 50px;
+	padding:1px 0 0 0 ; 
+}
+html[dir="rtl"] .copyright_des {
+    float: right;
+    padding: 11.5px 0;
+    text-align: center;
+    width: 100%;
+    line-height: 16px;
+}
+html[dir="ltr"] .copyright_des {
+    float: left;
+    padding: 11.5px 0;
+    text-align: center;
+    width: 100%;
+    line-height: 16px;
+}
+.copyright_des span{
+	display: block;
+	text-align: center;
+	color: #f9f9f9;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+.copyright_des span a{
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+}
+.cards_wrap{
+	float: right;
+	width: 100%;
+	padding:3px 0 5px; 
+}
+.cards_wrap li{
+	display: inline-block;
+	margin-left: 4px;
+}
+.cards_wrap li:last-child{
+	margin-left: 0;
+}
+.cards_wrap li a{
+	position: relative;
+}
